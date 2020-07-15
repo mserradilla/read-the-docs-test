@@ -4,8 +4,9 @@ READ THE DOCS TEST
 Este es un proyecto creado como PoC para aprender a publicar en ReadTheDocs desde github teniendo en cuenta que:
 
 * reStructuredText vs Markdown
-* Se van a necesitar versionado de producto.
 * Se automatizará la publicación de documentación.
+* Se van a necesitar versionado de producto.
+* Se personaliza la documentación.
 
 Este proyecto servirá como guía para otros proyectos.
 
@@ -74,3 +75,12 @@ Versions con alarma
 ```````````````````
 
 Desde Admin, Advanced Settings se puede seleccionar si una version es inestable mostrando un banner en todas las páginas.
+
+Personalización
+---------------
+
+Se pueden utilizar un plugin de phinx para personalizar la documentación generada como `este <https://docs.citusdata.com/en/v5.0/_themes/README.html>`_.
+
+```
+$ pip install sphinx_rtd_theme
+```
