@@ -59,47 +59,37 @@
 <p>Crearemos una versión <cite>stable</cite> de documentación si en el proyecto git creamos un tag <cite>stable</cite> que automáticamente se actualizará si hay cambios.</p>
 <p>Normalmente, la versión <cite>latest</cite> apunta a la versión más reciente de la documentación subida en git. Si quieres que sea una rama diferente, se deberá establecer como <cite>rama por defecto</cite> en github.</p>
 <p>Puedes crear un <em>tag</em> para cada versión de la documentación.</p>
-<p>** Estados de la versión **</p>
-<ul>
-<li><p>Active:
-* Active</p>
-<blockquote>
-<div><ul class="simple">
-<li><p>Los documentos están visibles.</p></li>
-<li><p>Se actualizará la documentación con cada actualización.</p></li>
-</ul>
-</div></blockquote>
-<ul class="simple">
-<li><p>Inactive
-- Los documentos no están visibles.
-- No se actualizará la documentación con cada actualización.</p></li>
-</ul>
-</li>
-<li><p>Hidden:
-* No oculto y activo</p>
-<blockquote>
-<div><ul class="simple">
-<li><p>La versión se muestra en el selector de versiones.</p></li>
-<li><p>La versión se muestra en los resultados de búsqueda.</p></li>
-</ul>
-</div></blockquote>
-<ul class="simple">
-<li><p>Oculto y activo
-- La versión no se muestra en el selector de versiones.
-- La versión no se muestra en los resultados de búsqueda.</p></li>
-</ul>
-</li>
-</ul>
+<div class="section" id="estados-de-la-version">
+<h3>Estados de la versión<a class="headerlink" href="#estados-de-la-version" title="Permalink to this headline">¶</a></h3>
+<p>1. Active
+1.1. Active
+1.1.1. Los documentos están visibles.
+1.1.2. Se actualizará la documentación con cada actualización.
+1.2. Inactive
+1.2.1. Los documentos no están visibles.
+1.2.2. No se actualizará la documentación con cada actualización.
+2. Hidden
+2.1. No oculto y activo
+2.1.1. La versión se muestra en el selector de versiones.
+2.1.2. La versión se muestra en los resultados de búsqueda.
+2.2. Oculto y activo
+2.2.1. La versión no se muestra en el selector de versiones.
+2.2.2. La versión no se muestra en los resultados de búsqueda.</p>
 <p>Ocultar una versión no la convierte en privada. Si alguien tiene un enlace a la misma podrá acceder.</p>
-<p>** Niveles de privacidad **</p>
+</div>
+<div class="section" id="niveles-de-privacidad">
+<h3>Niveles de privacidad<a class="headerlink" href="#niveles-de-privacidad" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
 <li><p>Public:
-* Accesible por todo el mundo.</p></li>
+- Accesible por todo el mundo.</p></li>
 <li><p>Private:
-* Accesible para los usuarios con permisos de acceso. No se muestra en el selector de versiones y se obtendrá un 404 si alguien intenta acceder a la documentación sin permiso.</p></li>
+- Accesible para los usuarios con permisos de acceso. No se muestra en el selector de versiones y se obtendrá un 404 si alguien intenta acceder a la documentación sin permiso.</p></li>
 </ul>
-<p>** Versions con alarma **</p>
+</div>
+<div class="section" id="versions-con-alarma">
+<h3>Versions con alarma<a class="headerlink" href="#versions-con-alarma" title="Permalink to this headline">¶</a></h3>
 <p>Desde Admin, Advanced Settings se puede seleccionar si una version es inestable mostrando un banner en todas las páginas.</p>
+</div>
 </div>
 </div>
 
