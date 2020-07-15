@@ -44,31 +44,31 @@ Estados de la versión
 `````````````````````
 
 * Active:
-  + Active
-    - Los documentos están visibles.
-    - Se actualizará la documentación con cada actualización.
+ + Active
+  - Los documentos están visibles.
+  - Se actualizará la documentación con cada actualización.
 
-  + Inactive
-    - Los documentos no están visibles.
-    - No se actualizará la documentación con cada actualización.
+ + Inactive
+  - Los documentos no están visibles.
+  - No se actualizará la documentación con cada actualización.
 
 * Hidden:
-  + No oculto y activo
-    - La versión se muestra en el selector de versiones.
-    - La versión se muestra en los resultados de búsqueda.
-  + Oculto y activo
-    - La versión no se muestra en el selector de versiones.
-    - La versión no se muestra en los resultados de búsqueda.
+ + No oculto y activo
+  - La versión se muestra en el selector de versiones.
+  - La versión se muestra en los resultados de búsqueda.
+ + Oculto y activo
+  - La versión no se muestra en el selector de versiones.
+  - La versión no se muestra en los resultados de búsqueda.
 
 Ocultar una versión no la convierte en privada. Si alguien tiene un enlace a la misma podrá acceder.
 
 Niveles de privacidad
 `````````````````````
 
-* Public:
-  + Accesible por todo el mundo.
-* Private:
-  + Accesible para los usuarios con permisos de acceso. No se muestra en el selector de versiones y se obtendrá un 404 si alguien intenta acceder a la documentación sin permiso.
+- Public
+ * Accesible por todo el mundo.
+- Private
+ * Accesible para los usuarios con permisos de acceso. No se muestra en el selector de versiones y se obtendrá un 404 si alguien intenta acceder a la documentación sin permiso.
 
 Versions con alarma
 ```````````````````
