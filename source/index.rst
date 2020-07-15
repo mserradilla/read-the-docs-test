@@ -80,7 +80,3 @@ Personalización
 ---------------
 
 Se pueden utilizar un plugin de phinx para personalizar la documentación generada como `este <https://docs.citusdata.com/en/v5.0/_themes/README.html>`_.
-
-```
-$ pip install sphinx_rtd_theme
-```
