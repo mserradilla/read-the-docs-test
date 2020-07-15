@@ -15,16 +15,20 @@ Tanto Markdown como reStructuredText son lenguajes de marcado soportados por Rea
 
 Según ReadTheDocs "Markdown no admite muchas de las características de Sphinx, como el marcado en línea y las directivas. Sin embargo, funciona para contenido básico en prosa. reStructuredText es el formato preferido para la documentación técnica, lea esta publicación de blog para motivarse."
 
-`reStructuredText <https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html` es un lenguaje enriquecido para la generación de documentación técnica.
+`reStructuredText: <https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html>`_ es un lenguaje enriquecido para la generación de documentación técnica.
 
-Por otro lado, `MarkDown <https://daringfireball.net/projects/markdown/syntax>` mucho más extendido y accesible para iniciar la documentación.
+Por otro lado, `MarkDown <https://daringfireball.net/projects/markdown/syntax>`_ mucho más extendido y accesible para iniciar la documentación.
 
-Tal y como indica Eli Bendersky en su artículo `reStructuredText vs. Markdown for technical documentation <https://eli.thegreenplace.net/2017/restructuredtext-vs-markdown-for-technical-documentation/>` reST es un lenguaje de marcado más apropiado para cualquier tipo de documentación técnica, mientras que markdown es más apropiado para documentación más ligera.
+Tal y como indica Eli Bendersky en su artículo `reStructuredText vs. Markdown for technical documentation <https://eli.thegreenplace.net/2017/restructuredtext-vs-markdown-for-technical-documentation/>`_ reST es un lenguaje de marcado más apropiado para cualquier tipo de documentación técnica, mientras que markdown es más apropiado para documentación más ligera.
 
-Sugiero la utilización de reST como base documental en futuros documentos y probar su viabilidad.
+Como conclusion, sugiero la utilización de reST como base documental en futuros documentos y probar su viabilidad.
 
-Installation
-------------
+Versionado
+----------
+
+Read the docs soporta múltiples versiones del repositorio. En la primera importación, lo haremos desde el repositorio por defecto a la versión `latest` que apunta a la rama por defecto del repositorio git.
+
+Crearemos una versión `stable` si en el proyecto git creamos un tag `stable` que automáticamente se actualizará si hay cambios.
 
 Install $project by running:
 
