@@ -27,7 +27,7 @@ Como conclusion, sugiero la utilización de reST como base documental en futuros
 Automatización de la publicación
 --------------------------------
 
-Siguiendo las instrucciones en la `documentacion de read the docs <https://docs.readthedocs.io/en/stable/webhooks.html>`_ se añade un webhook en el repositorio git para enlazar read the docs con el proyecto y automáticamente los documentos publicados en el repositorio se publicarán en read de docs.
+Siguiendo las instrucciones en la `documentación de read the docs <https://docs.readthedocs.io/en/stable/webhooks.html>`_ se añade un webhook en el repositorio git para enlazar read the docs con el proyecto y automáticamente los documentos publicados en el repositorio se publicarán en read de docs.
 
 Versionado
 ----------
@@ -36,7 +36,7 @@ Read the docs soporta múltiples versiones del repositorio. En la primera import
 
 Crearemos una versión `stable` de documentación si en el proyecto git creamos un tag `stable` que automáticamente se actualizará si hay cambios.
 
-Normalmente, la versión `latest` apunta a la versión más reciente de la documentación subida en git. Si quieres que sea una rama diferente, establecela como `rama por defecto` en github.
+Normalmente, la versión `latest` apunta a la versión más reciente de la documentación subida en git. Si quieres que sea una rama diferente, se deberá establecer como `rama por defecto` en github.
 
 Puedes crear un *tag* para cada versión de la documentación.
 
@@ -51,7 +51,7 @@ Puedes crear un *tag* para cada versión de la documentación.
     - No se actualizará la documentación con cada actualización.
 
 * Hidden:
-  * No ocuto y activo
+  * No oculto y activo
     - La versión se muestra en el selector de versiones.
     - La versión se muestra en los resultados de búsqueda.
   * Oculto y activo
