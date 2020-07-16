@@ -1,0 +1,29 @@
+{
+  "name": "hyperledger-besu",
+  "version": "1.0.0",
+  "description": "Hyperledger Besu doc site",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test:links:check": "find . -name \\*.md ! -path \"./node_modules/*\" -exec ./node_modules/markdown-link-check/markdown-link-check -q -c CI/linkchecker/link_check_conf.json {} \\; > linkchecker.out 2>&1",
+    "test:links:display": "cat linkchecker.out",
+    "test:links:verify": "! grep 'ERROR:' linkchecker.out",
+    "test:links": "npm run test:links:check && npm run test:links:display && npm run test:links:verify",
+    "test": "npm run test:links"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hyperledger/besu-docs.git"
+  },
+  "author": "Hyperledger Besu community",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/hyperledger/besu-docs/issues"
+  },
+  "homepage": "https://github.com/hyperledger/besu-docs#readme",
+  "dependencies": {
+    "markdown-link-check": "3.7.3"
+  }
+}
